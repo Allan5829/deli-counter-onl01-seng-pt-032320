@@ -14,10 +14,8 @@ def line(katz_deli)
 end
 
 def take_a_number (katz_deli, name)
-  katz_deli.each do |customer|
     katz_deli.push ("#{name}")
     puts "Welcome, #{customer}. You are number #{katz_deli.size} in line."
-  end 
 end
 
 def now_serving (katz_deli)
