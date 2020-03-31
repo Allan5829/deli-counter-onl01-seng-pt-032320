@@ -13,7 +13,7 @@ def line(katz_deli)
   end
 end
 
-name = ""
+name = "Ada"
 
 def take_a_number (katz_deli, name)
   katz_deli.each do |customer|
