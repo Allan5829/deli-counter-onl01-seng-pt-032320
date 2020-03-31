@@ -15,12 +15,10 @@ end
 
 def take_a_number (katz_deli, name)
   katz_deli.each do |customer|
-    number_in_line = katz_deli.size + 1
-    puts "Welcome, #{customer}. You are number #{number_in_line} in line."
+    
+    puts "Welcome, #{customer}. You are number #{katz_deli.size} in line."
   end 
 end
-
-
 
 def now_serving (katz_deli)
   if katz_deli.size == 0
