@@ -16,7 +16,7 @@ end
 def take_a_number (katz_deli, name)
   katz_deli.each do |customer|
     number_in_line = katz_deli.size + 1
-    puts "Welcome, #{customer}. You are number #{number_in_line} in line."
+    return "Welcome, #{customer}. You are number #{number_in_line} in line."
   end 
 end
 
