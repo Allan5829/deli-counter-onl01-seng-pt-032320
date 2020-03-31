@@ -19,3 +19,4 @@ def take_a_number (katz_deli, name)
     puts "Welcome, #{customer}. You are number #{number_in_line} in line."
   end
 end
+
